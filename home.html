@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lixo Zero Web App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-blue-900">
+    <!--Gradiente de um tom de azul para um tom de purple "bg-gradient-to-r from-blue-500 to-blue-400"-->
+    <!--from-blue-500 a cor azul pode variar de 100 a 900 tons de azul-->
+    <!--to-blue-400 a cor blue pode varia de 100 a 900 tons de blue-->
+    <div class="flex flex-col justify-between">
+        <div>
+            <h1 class="px-5 text-white mt-10 text-lg">Lixo Zero</h1>
+            <h2 class="px-5 text-white font-bold text-3xl">Bem-vindo, pessoa.</h2>
+            <hr class="border-blue-400 my-5">
+
+            <div class="text-yellow-400 font-bold text-lg px-5">Suas últimas denúncias</div>
+
+            <!-- Report -->
+            <div class="flex flex-col space-y-5">
+                <div class="px-5">
+                    <div class="flex space-x-5 pt-5">
+                        <img src="https://picsum.photos/200" alt="Imagem de lixo"
+                            class="w-16 h-16 rounded-full ring ring-blue-400">
+                        <div class="flex flex-col text-white text-sm">
+                            <div class="font-bold text-cyan-300">Em averiguação</div>
+                            <div>R. João Pereira dos Santos, 305 - Pte. do Imaruim, Palhoça - SC, 88130-475</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="px-5">
+                    <div class="flex space-x-5 pt-5">
+                        <img src="https://picsum.photos/200" alt="Imagem de lixo"
+                            class="w-16 h-16 rounded-full ring ring-blue-400">
+                        <div class="flex flex-col text-white text-sm">
+                            <div class="font-bold text-cyan-300">Em averiguação</div>
+                            <div>R. Hercílio Nicolau dos Santos, 670 - Guarda do Embaú, Palhoça - SC</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="px-5">
+                    <div class="flex space-x-5 pt-5">
+                        <img src="https://picsum.photos/200" alt="Imagem de lixo"
+                            class="w-16 h-16 rounded-full ring ring-blue-400">
+                        <div class="flex flex-col text-white text-sm">
+                            <div class="font-bold text-green-400">Concluído</div>
+                            <div>R. Natálio João Da Silveira, 21 - Enseada da Pinheira, Palhoça - SC, 88139-261</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="px-5">
+                    <div class="flex space-x-5 pt-5">
+                        <img src="https://picsum.photos/200" alt="Imagem de lixo"
+                            class="w-16 h-16 rounded-full ring ring-blue-400">
+                        <div class="flex flex-col text-white text-sm">
+                            <div class="font-bold text-cyan-300">Em averiguação</div>
+                            <div>R. Amaro Coelho, 260 - Barra da Lagoa, Florianópolis - SC, 88061-090</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim Report -->
+
+            <div class="flex space-x-2 pt-3">
+                <a href="nova-denuncia.html"
+                    class="bg-white py-4 w-full rounded text-blue-600 font-bold text-center">Fazer nova denúncia</a>
+                <a href="index.html" class="bg-white py-4 w-full rounded text-red-600 font-bold text-center">Sair</a>
+            </div>
+        </div>
+        <div class="text-center text-white py-10">Créditos do WebApp aqui</div>
+    </div>
+</body>
+
+</html>
